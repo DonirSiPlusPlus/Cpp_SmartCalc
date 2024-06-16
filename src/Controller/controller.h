@@ -3,9 +3,9 @@
 
 #include <QMainWindow>
 
-#include "graph.h"
-#include "s21_calculator.h"
-#include "s21_credit_calc.h"
+#include "../Model/s21_calculator.h"
+#include "../Model/s21_credit_calc.h"
+#include "../View/graph.h"
 
 class controller {
  public:

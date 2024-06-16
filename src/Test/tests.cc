@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 
-#include "Model/s21_calculator.h"
+#include "../Model/s21_calculator.h"
 
 /* Calculation test */
 

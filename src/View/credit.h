@@ -3,7 +3,7 @@
 
 #include <QWidget>
 
-#include "controller.h"
+#include "../Controller/controller.h"
 
 namespace Ui {
 class credit;
