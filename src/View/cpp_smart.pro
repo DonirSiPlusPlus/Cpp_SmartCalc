@@ -9,6 +9,8 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    ../Model/s21_calculator.cc \
+    ../Model/s21_credit_calc.cc \
     credit.cc \
     graph.cc \
     main.cpp \
@@ -18,6 +20,10 @@ SOURCES += \
     s21_credit_calc.cc
 
 HEADERS += \
+    ../Controller/controller.h \
+    ../Model/s21_calculator.h \
+    ../Model/s21_credit_calc.h \
+    ../Model/tokens.h \
     controller.h \
     credit.h \
     graph.h \

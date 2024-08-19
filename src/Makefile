@@ -11,12 +11,12 @@ endif
 
 all: test_build install dvi
 
-install:
+install: clean uninstall
 	@mkdir build
 	@cp -R ./Model/ build/
 	@cp -R ./View/ build/
 	@cp -R Controller/controller.h build/
-	@cd build && qmake6 ./cpp_smart.pro
+	@cd build && qmake6 ./View/cpp_smart.pro
 	@cd build && make
 	@cd build && make clean
 	@cd build && rm -f Makefile

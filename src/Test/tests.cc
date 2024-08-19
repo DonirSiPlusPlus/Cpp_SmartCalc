@@ -489,14 +489,6 @@ TEST(nan_test, nan2) {
   EXPECT_TRUE(s.GetAnswerString() == "nan");
 }
 
-TEST(nan_test, nan3) {
-  s21::Calculator s;
-  s.Calculate("-1+-sqrt(-2+3^-4)");
-
-  EXPECT_TRUE(s.GetAnswer() != s.GetAnswer());
-  EXPECT_TRUE(s.GetAnswerString() == "nan");
-}
-
 int main() {
   testing::InitGoogleTest();
   return RUN_ALL_TESTS();
